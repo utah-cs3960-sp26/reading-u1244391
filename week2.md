@@ -1,0 +1,10 @@
+//////// READING #1 /////////
+---------------------------------------------------------------------------------
+1) In AI models computation is an essential part of the functionality of Modern models. Training AI models isnt about feeding human knowledge into the model but letting the model compute and digest tons and tons of data and make its own decisions off of that data. 
+2) The lesson is bitter because its dissappointing that AI really have nothing to learn from us in a connecting way. they just need the data we have gathered over decades and centuries to make decisions and learn from it. Its not about teaching human intuition which has hit a wall but with computational thought from large data sets just keeps on improving. The things researchers wanted to be the right way to build AI, things like clever human insights, turned out not to be what actually wins in the long run.
+3) Because AI doesnt learn in a human development style they dont quite think like we do and so our ability to give human explainations for its decisions is really limited because of that. The standard data driven computation that the models use doesnt always map onto human thinking or decision making. 
+
+
+//////// READING #2 /////////
+-----------------------------------------------------------------------------------
+1) AI coding assistants with the ability of generating code can also generate and help with running and testing that code. However with the AI generating lots of code now the resposibility falls on us to understand and verify the code works as intended. The modern models can code, test the code, and iterate on the code to test and iterate on it itself. Even with this develppment of AI it just makes the resposibility of manual testing even more important. becuase AI makes generating lots of tests even more easy it means that there is no excuse for not doing lots of thorough testing. The job is still to deliver code you have proven to work. The workload is shared with AI but all the resposibility is still on us. 
