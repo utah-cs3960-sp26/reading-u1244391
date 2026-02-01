@@ -1,1 +1,7 @@
+//////// READING #1 /////////
+---------------------------------------------------------------------------------
+The authors find that LLM performance is primarily determined by three scaling parameters: model size, dataset size, and training compute. Optimal performance and improvement is done by increasing the 3 factors simultaneously. Performance improves smoothly as these factors increase together. The authors also found other factors that did not show as much importance when compared to scale. It does not depend on things like model shape, including choices like depth versus width meaning once an architecture is chosen and further tuning was done the result yielded far smaller gains for the model. 
 
+Overfitting is a term used by the authors to indicate when model size and dataset size are not scaled together. They use description that implies that increasing model size by 8x only requires about a 5x increase in data to avoid overfitting. This behavior is described as universal across model sizes.
+
+Bottlenecking is a term used to describe a similar limitation, where one of the three key factors (parameters, data, or compute training) constrains performance gains from the others. Like for example increasing compute alone will not continue to improve performance if model size or dataset size is insufficient. This explains their claims that strong performance gains require avoiding bottlenecks by scaling model size, data, and compute in tandem.
