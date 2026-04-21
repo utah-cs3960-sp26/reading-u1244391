@@ -1,0 +1,9 @@
+//////// READING #1 /////////
+---------------------------------------------------------------------------------
+The exec plans directory contains detailed execution plans for complex tasks, like step by step breakdowns, progress tracking, decision logs, and records of active or completed work, which are all stored directly in the repository so agents can access them. Before agents this type of information would usually be scattered across tools like Jira or Google Docs, buried in Slack conversations, or just known by engineers and team leads which made it harder to access and maintain. Doc gardening refers to an automated process where an agent continuously scans documentation for outdated or incorrect information and opens pull requests to fix it keeping the docs aligned with the actual code. To maintain consistency the OpenAI team enforces strict codebase wide invariants, including a rigid layered architecture where components can only depend forward through predetermined layers, as well as rules enforced by custom linters and tests, they also apply taste invariants like structured logging, naming conventions, file size limits, and validating data at system boundaries, which helps ensure the codebase stays coherent reliable and easy for agents to understand and extend.
+
+
+//////// READING #2 /////////
+---------------------------------------------------------------------------------
+
+Two correctness properties I would want to prove about my text editor are that applying a sequence of edits and then undoing them always returns the document to its exact original state, meaning the undo and redo system is perfectly lossless and preserves all content and structure, and that saving a document to disk and then loading it back into the editor always produces an identical document in memory with no corruption or unintended changes, ensuring that persistence faithfully preserves the full state of the text.
